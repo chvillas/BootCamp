@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  title = 'app';
+  title = 'My application';
+  author = 'Christian Villa'
+  count = 0;
+  imgSource = './../favicon.ico';
+  active:boolean = false;
 }
