@@ -6,7 +6,7 @@
   <app-my-component></app-my-component>
   <button (click)="count = count + 1"> Click me </button> 
   <h1>Count {{count}}!!</h1>
-  <p><img src="{{imgSource}}" alt=""></p>
+  <p><img [src]="imgSource"></p>
   <button (click)="active = !active"> Click me </button>
   <input [disabled]=active type="text">
 </div>
